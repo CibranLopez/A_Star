@@ -1,8 +1,6 @@
 //
 //  main.c
-//  get_binary_file_Spain
-//
-//  Created by Cibrán on 16/10/2021.
+//  get_binary_file
 //
 
 

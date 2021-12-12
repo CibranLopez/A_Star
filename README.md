@@ -1,7 +1,7 @@
 # A*
 
-Here a implementation of A* algoritm can be found. It is executed in 'A_Star_algorithm.c', with all needed functions and constants defined in 'auxiliar_functions.h'. As well, a program to convert the initial file ('spain.csv') into the required structure (a binary file will be created) is attached under the name 'get_binary_file.c'. This will be the input of the main algorithm.
+Here an implementation of A* algoritm can be found, devoted to solve the minimal path from Barcelona to Sevilla.
 
-In order to execute these programs, 'asprintf' function has to be available. Since it is part of GNU, it may be already available for some GNU versions. Otherwise, including '#define _GNU_SOURCE' may be needed (just dis-commenting this line in 'get_binary_file.c' and 'auxiliar_functions.h').
+In order to execute it, 'asprintf' function has to be available. Since it is part of GNU, it may be already available for some GNU versions. Otherwise, including '#define _GNU_SOURCE' may be needed (just dis-commenting this line in 'get_binary_file.c' and 'auxiliar_functions.h').
 
-The resulting path from Barcelona to Sevilla is included under the name 'Results.dat', which is generated each time the A* algorithm is executed.
+Then, the file with all the nodes and ways (the so-called 'spain.csv') has to be in the same folder as the executables of 'A_Star_algorithm.c', (compiled with 'auxiliar_functions.h', where all the needed functions are defined) and 'get_binary_file.c'. So, after compiling and executing this last program, a binary file will be created, which will be read by 'A_Star_algorithm.c' after its compilation and execution. The output will be stored in a new file, 'Results.dat', in which we can find each node's id, name and cumulative distance.

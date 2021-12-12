@@ -9,6 +9,8 @@
 #define heuristic modified_Euclidean_distance
 #define resize M_PI * 6371000 / 180 // With estimated Earth's radius.
 
+//#define _GNU_SOURCE // Not commented if 'asprintf' function is not available.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>

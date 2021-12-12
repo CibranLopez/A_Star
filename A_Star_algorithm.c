@@ -12,7 +12,7 @@
 
 /*
     Here the AStar's algorithm is implemented. It goes iteratively to the nearest neighbour, and if the distance through the node plus the expeted one to the goal is smaller than the other options, it saves it as a new edge of the sapanning tree. Once it finishes one brach, it goes through the previous non-expanded node.
-    All needed functions, libraries and constantes are defined in 'auxiliar_functions.h'.
+    All needed functions, libraries and constants are defined in 'auxiliar_functions.h'.
 */
 
 int main() {

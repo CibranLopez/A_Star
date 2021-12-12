@@ -10,6 +10,8 @@
 #include <limits.h>
 #include <time.h>
 
+//#define _GNU_SOURCE // Not commented if 'asprintf' function is not available.
+
 #define input_file_name "spain.csv"
 #define output_file_name "Spain_binary_file.bin"
 
